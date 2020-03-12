@@ -10,6 +10,6 @@ class Shoe
   end
 
   def cobble
-    puts "Your shoe is as good as new!" 
-    @cobble 
+    puts "Your shoe is as good as new!"
+    @cobble
 end
