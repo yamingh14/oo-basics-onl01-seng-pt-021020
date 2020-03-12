@@ -3,7 +3,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    @condition = repaired
   end
 
   def cobble=(repair)
