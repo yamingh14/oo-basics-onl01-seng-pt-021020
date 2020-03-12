@@ -9,4 +9,7 @@ class Book
     @turn_page = turn_page
   end
 
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+    @turn_page
 end
