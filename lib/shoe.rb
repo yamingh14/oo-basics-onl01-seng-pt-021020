@@ -4,4 +4,12 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
+
+  def cobble=(repair)
+    @cobble = repair
+  end
+
+  def cobble
+    puts "Your shoe is as good as new!" 
+    @cobble 
 end
