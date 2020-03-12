@@ -5,7 +5,8 @@ class Book
     @title = name
   end
 
-  def turn_page
+  def turn_page=(turn_page)
+    @turn_page = turn_page
   end
 
 end
