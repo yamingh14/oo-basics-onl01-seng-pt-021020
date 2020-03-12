@@ -11,14 +11,9 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
+    @condition = "new"
     @cobble
   end
 
-  def condition=(condition = "new")
-    @condition = condition
-  end
 
-  def condition
-    @condition
-  end
 end
